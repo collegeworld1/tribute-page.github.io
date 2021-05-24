@@ -1,0 +1,85 @@
+body{
+    background-image: url('image/tribute.jpg');
+    height:100vh;
+    width:100vw;
+    background-repeat: repeat-y;
+    background-size: cover;
+  
+}
+.green{
+    text-align: center;
+    font-weight: 500;
+    
+}
+.red{
+    text-align: center;
+    font-weight: 100;
+}
+
+.box1{
+    
+    background-color: white;
+    height:50vh;
+    width:96vw;
+    border-radius: 10px;
+    margin-left: 5px;
+    
+}
+.image-box{
+    height: 40%;
+    width:100%;
+    box-sizing: border-box;
+    background-image: url('image/MSJohn11.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.caption{
+    text-align: center;
+    font-size: 0.9em;
+}
+.main-caption{
+   
+    margin-left: 2rem;
+}
+.main-content ul li {
+    margin-left:0.8rem;
+    padding:2px;
+    font-size:1.2rem;
+    
+}
+#quote{
+    font-size: 1.3em;
+    margin:1rem;
+}
+.last-content a{
+    text-decoration: none;
+
+}
+.last-content{
+    margin-left:2rem;
+}
+@media only screen and (min-width: 992px) {
+    .image-box{
+    height: 60%;
+    width:100%;
+   
+}
+.box1{
+    
+    background-color: white;
+    height:95vh;
+    width:96vw;
+    border-radius: 10px;
+    margin-left: 5px;
+    
+}
+.caption{
+    text-align: center;
+    font-size: 1.4em;
+}
+.main-content ul li {
+    margin-left:0.8rem;
+    padding:3px;
+    
+}
+}
